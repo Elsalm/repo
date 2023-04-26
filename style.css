@@ -1,7 +1,7 @@
 * {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
 
 body {
@@ -17,15 +17,17 @@ article {
     flex-flow: row nowrap;
     max-width: 100%;
     margin: 0.2em;
+    padding: 1em 0 1em 0;
+    border-bottom: 2px solid black;
 }
 
 article img {
-    max-width: 48%;
+    max-width: 38%;
     height: auto;
     margin-right: 1%;
 }
 
 article p {
-    max-width: 48%;
+    max-width: 58%;
     height: auto;
 }
