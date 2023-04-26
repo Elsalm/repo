@@ -1,3 +1,31 @@
 * {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+body {
+    background: 100% repeat-y url(images/bg.jpg);
+}
+
+header{
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 100%;
+    margin: 0.2em;
+}
+
+article img {
+    max-width: 48%;
+    height: auto;
+    margin-right: 1%;
+}
+
+article p {
+    max-width: 48%;
+    height: auto;
 }
