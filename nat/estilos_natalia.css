@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(fondocssgit.jpeg);
+    background-image: url(imagenes/fondocssgit.jpeg);
 }
 
 ul li{
@@ -34,7 +34,7 @@ img {
 
 
 h2{
-    background-image: url(guiño.gif); 
+    background-image: url(imagenes/guiño.gif); 
     background-repeat: no-repeat;
     background-size:1em;
     width: 17em;
