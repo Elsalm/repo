@@ -1,0 +1,168 @@
+
+/*----ESTILOS GENERALES-----*/
+
+
+* {
+    box-sizing: border-box;/*para que las cajas no se amplien si metemos padding o bordes*/
+    text-decoration: none;/*formateo de los links*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background-image: url(fondocssgit.jpeg);
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+img { 
+    max-width: 100%;
+}
+
+#fotospeque {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20rem;
+    width: 100%;
+
+}
+
+/*----ESTILOS FLEXBOX-----*/
+
+
+h2{
+    background-image: url(guiño.gif); 
+    background-repeat: no-repeat;
+    background-size:1em;
+    width: 17em;
+}
+
+
+
+.naveg ul{
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    align-items: center;
+    
+}
+
+header h1 {
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.portada {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.menu > *{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.menu {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+ .menu p{
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px dashed rgb(34, 26, 26);
+    padding: 8px;
+    border-radius: 9px;
+ }
+
+ .menu p:hover{
+    color: rgb(121, 24, 24);
+ }
+
+
+ #volver {
+    display: flex;
+    justify-content: center;
+ }
+
+/*-----FLORITURAS----------*/
+
+
+.portada img{
+    border-radius: 8px;
+}
+
+ul li a{
+    color: white;
+}
+
+header h1{
+    color: rgb(16, 17, 8);
+    text-shadow: 1px 2px rgb(224, 31, 31);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.naveg ul li {
+    font-weight: bold;
+    margin-right: 33px;
+    margin-left: 10px;
+}
+
+
+.naveg ul {
+    
+    background: linear-gradient(90deg, rgba(24,21,10,1) 0%, rgba(125,16,16,1) 50%, rgba(24,21,10,1) 100%);
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    
+   
+}
+
+.naveg ul li a:hover{
+    color: black;
+   
+}
+
+
+.menu p{
+    
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+footer p{
+    font-size: .7em;
+}
+
+footer p a{
+    color: black;
+    font-size: 1.5em;
+}
+
+#volver{
+    margin-top: 30px;
+}
+
+#volver p a:hover {
+    color: rgb(121, 24, 24);
+}
+
+#fotospeque img {
+    border-radius: 9px;
+    margin-top: 25px;
+}
