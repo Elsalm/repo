@@ -1,1 +1,16 @@
 body{background-image: url(./Imagenes/fondo.jpg);}
+ 
+header{display: flex; justify-content: center;}
+
+section{display: flex; flex-flow: column; gap: 2em; }
+article{display:flex; flex-flow:column; align-items: center;  }
+article.Infancia div{border: solid 2px; width: 50%;}
+
+article.Infancia div img{ flex-grow: 1; width: 100%;}
+
+article.Adolecencia div{border: solid 2px; width: 50%;}
+article.Adolecencia div img{ flex-grow: 1; width:100% ;}
+
+article.Actualidad div{border: solid 2px; width: 50%;}
+article.Actualidad div img{ flex-grow: 1; width:100% ;}
+
