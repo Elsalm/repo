@@ -1,0 +1,20 @@
+
+*{
+    text-shadow: blue;
+    color: black;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0 0 10px;
+}
+
+body{
+    background-image: url(imagenes/luisssss.png);
+}
+
+.cont{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#fotos img{
+    border: 2px solid black;
+    max-width: 30%;
+}
